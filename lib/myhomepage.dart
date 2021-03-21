@@ -32,8 +32,8 @@ class _MyHomePageState extends State<MyHomePage> {
     lottieWidget.addAll(
       a.map(
         (element) => SizedBox(
-          height: 100,
-          width: 100,
+          height: 350,
+          width: 350,
           child: Lottie.asset(element),
         ),
       ),
@@ -46,7 +46,7 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.white,
+      backgroundColor: Colors.transparent,
       body: Container(
         alignment: Alignment.center,
         child: Container(
