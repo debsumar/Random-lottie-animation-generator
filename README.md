@@ -1,4 +1,4 @@
-# flutterdarkmode
+# Random-lottie-animation-generator
 
 A new Flutter project.
 
